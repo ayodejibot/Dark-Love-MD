@@ -58,7 +58,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "Dark-Love-MD",
   packname: process.env.PACK_NAME || "🌹",
   botname: process.env.BOT_NAME || "Dark-Love-MD",
-  ownername: process.env.OWNER_NAME || "WASI",
+  ownername: process.env.OWNER_NAME || "Dark-Love-MD",
   errorChat: process.env.ERROR_CHAT || "2348122441244",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -69,7 +69,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "WASI").toUpperCase(),
 };
 global.rank = "updated";
