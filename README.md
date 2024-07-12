@@ -23,6 +23,4 @@
 
   #SET UP DEPLOYMENT METHOD#
   1. Fork the Repo  <a  href="https://github.com/ayodejibot/Dark-Love-MD/fork" >Fork</a> and star⭐ it
-  2. Get session id, Pairing code <p>
-<a href="file:///C:/Users/USER/Desktop/ayodejibot%20session%20id%20code/pair.html">Pair Code</a>
-</p>
+  2. Get session id, Pairing code
