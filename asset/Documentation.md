@@ -1,4 +1,5 @@
-# DARK-LOVE-Md WhatsApp Bot Simple Document
+
+# Asta Md WhatsApp Bot Simple Document
 ### Simple Document on how The Database Works
 ----------------------------------------------------------------
 ### Simple Document on how The Database Works
@@ -75,6 +76,91 @@ pg.new = async (tableName, data) => {
   } catch (error) {
     await client.query("ROLLBACK");
     console.log(`Error inserting new row into ${tableName}\n`, error);
+  } finally {
+    client.release();
+  }
+};
+pg.countDocuments = async (tableName) => {
+  if (!(await pg.createTable(tableName))) {
+    return 0;
+  }
+  const client = await pool.connect();
+  try {
+    const result = await client.query(`SELECT COUNT(*) FROM ${tableName}`);
+    return parseInt(result.rows[0].count);
+  } catch (error) {
+    return 0;
+  } finally {
+    client.release();
+  }
+};
+pg.findOne = async (tableName, data) => {
+  if (!(await pg.createTable(tableName))) {
+    return false;
+  }
+  const client = await pool.connect();
+  try {
+    const result = await client.query(
+      `SELECT * FROM ${tableName} WHERE id = $1`,
+      [data.id]
+    );
+    return result.rows[0];
+  } catch (error) {
+    console.log(
+      `Error while finding ${tableName} document by Id: ${data.id}\n`,
+      error
+    );
+    return false;
+  } finally {
+    client.release();
+  }
+};
+pg.find = async (tableName, query = {}) => {
+  if (!(await pg.createTable(tableName))) {
+    return [];
+  }
+  const client = await pool.connect();
+  try {
+    let values = Object.values(query);
+    if (!values || !values[0]) {
+      return (await client.query(`SELECT * FROM ${tableName}`)).rows || [];
+    } else if (query.id) {
+      return [{ ...(await pg.findOne(tableName, query)) }] || [];
+    }
+  } catch (error) {
+    console.log(`Error while find ${tableName} documents`, error);
+    return [];
+  } finally {
+    client.release();
+  }
+};
+pg.updateOne = async (tableName, selector, update = {}) => {
+  if (!(await pg.createTable(tableName))) {
+    return false;
+  }
+  const client = await pool.connect();
+  try {
+    await client.query("BEGIN");
+    const selectQuery = `SELECT * FROM ${tableName} WHERE id = $1 FOR UPDATE`;
+    const selectResult = await client.query(selectQuery, [selector.id]);
+    if (selectResult.rows[0]) {
+      const updateQuery = `UPDATE ${tableName} SET ${Object.keys(update)
+        .map((key, index) => `${key} = $${index + 2}`)
+        .join(", ")} WHERE id = $1 RETURNING *;`;
+      const updateValues = [selector.id, ...Object.values(update)];
+      const updateResult = await client.query(updateQuery, updateValues);
+      await client.query("COMMIT");
+      return updateResult.rows[0];
+    } else {
+      return await pg.new(tableName, { ...selector, ...update });
+    }
+  } catch (error) {
+    await client.query("ROLLBACK");
+    console.error(
+      `Error while finding and updating ${tableName} document by Id: ${selector.id}\n`,
+      error
+    );
+    return [];
   } finally {
     client.release();
   }
@@ -269,6 +355,7 @@ This asynchronous function returns the count of documents (rows) in the specifie
 This asynchronous function retrieves a single document from the specified table based on the provided ID. If the table doesn't exist, it returns `false`.
 
 ### `pg.find(tableName, query)`
+
 This asynchronous function retrieves documents from the specified table based on the provided query parameters. It supports finding all documents or a specific document by ID. If the table doesn't exist, it returns an empty array.
 
 ### `pg.updateOne(tableName, selector, update)`
