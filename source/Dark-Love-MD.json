@@ -21,7 +21,7 @@
             "permited": "Hello Sir you are being appproved to Message Me Now.", 
             "revoked" : "Hello sir your Permission was rejected.",
             "demote": "This candidate has been sucessfully Demoted. Hurray!!!",
-            "antlink": "Link Detected.\n*link is not allowed currently *",
+            "antlink": "Link Detected.\n*link is not allowed *",
             "session": "\n kepp your session id safe sir",
             "mention": "Tag my owner",
             "title": "Dark-Love-MD",
