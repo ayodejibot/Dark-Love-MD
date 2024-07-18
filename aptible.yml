@@ -16,7 +16,7 @@ jobs:
       uses: aptible/aptible-deploy-action@v4
       with:
         type: git
-        app: wasimdbot
+        app: Dark-Love-MD
         environment: node.js
         username: ${{ secrets.APTIBLE_USERNAME }}
         password: ${{ secrets.APTIBLE_PASSWORD }}
