@@ -24,3 +24,6 @@
   #SET UP DEPLOYMENT METHOD#
   1. Fork the Repo  <a  href="https://github.com/ayodejibot/Dark-Love-MD/fork" >Fork</a> and star⭐ it
   2. Get session id, Pairing code
+  3. Deploy On Heroku
+   <p><a href="https://suhail-web01.vercel.app/deploy?platform=heroku"> <img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"> </a></p>
+    
