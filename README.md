@@ -25,5 +25,5 @@
   1. Fork the Repo  <a  href="https://github.com/ayodejibot/Dark-Love-MD/fork" >Fork</a> and star⭐ it
   2. Get session id, Pairing code
   3. Deploy On Heroku
-   <p><a href="https://dashboard.heroku.com/new?template=https://github.com/ayodejibot/Dark-Love-MD/"> <img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"> </a></p>
+   <p><a href="https://dashboard.heroku.com/new?template=https://github.com/ayodejibot/Dark-Love-MD/"> <img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098" alt="Heroku"> </a></p>
     
