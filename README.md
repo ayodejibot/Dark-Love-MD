@@ -91,6 +91,6 @@
 ## CONTACT Dark-Love-MD HERE
   CONTACT ME FOR ANY ISSUE
 
-   <a href="t.me//darklovemd"><img title="CONTACT ME" src="https://img.shields.io/badge/CONTACT ME-h?color=blue&style=for-the-badge&logo=luis" width="240" height="38.45"/></a></p>
+   <a href="https://t.me//darklovemd"><img title="CONTACT ME" src="https://img.shields.io/badge/CONTACT ME-h?color=blue&style=for-the-badge&logo=luis" width="240" height="38.45"/></a></p>
 
 
