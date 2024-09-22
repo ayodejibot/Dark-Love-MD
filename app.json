@@ -4,6 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
+  "logo":"https://i.imgur.com/THxMxIy.jpeg",
   "repository": "https://github.com/Lazack28/Lazack-Device",
   "stack": "container",
   "env": {
