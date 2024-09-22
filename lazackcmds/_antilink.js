@@ -17,7 +17,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin }) {
       `*≡ Link Detected*
             
 We do not allow links from other groups 
-I'm sorry *@${m.sender.split('@')[0]}*  you will be kicked out of the group ${isBotAdmin ? '' : '\n\nIM not an admin so I canT expel you :"v'}`,
+I'M SORRY *@${m.sender.split('@')[0]}*  LINK IS NOT ALLOWED IN THIS GROUP SO BEHAVE YOURSELF ${isBotAdmin ? '' : '\n\nIM not an admin so I canT expel you :"v'}`,
       null,
       { mentions: [m.sender] }
     )
