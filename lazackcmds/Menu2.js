@@ -46,7 +46,7 @@ let str = `
 ║═══════════════════════╣
 ║ 👾  *User Tag:* ${taguser}            
 ║ 🎩  *Name:* ${name}                   
-║ 🦸  *Master Mind:* LAZACK28           
+║ 🦸  *Master Mind:* Dark-Love-MD           
 ║ 💎  *Diamonds:* ${diamond}             
 ║ 🏆  *Rank:* ${role}                   
 ║ 🎮  *XP:* ${exp}                      
