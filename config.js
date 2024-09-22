@@ -85,9 +85,9 @@ global.thumb = fs.readFileSync('./jusorts/lazack.jpg')
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
-global.done = '✅'
-global.error = '❌'
-global.xmoji = '🔥'
+global.done = '👌'
+global.error = '🚫'
+global.xmoji = '🤖'
 
 global.multiplier = 69
 global.maxwarn = '3'
