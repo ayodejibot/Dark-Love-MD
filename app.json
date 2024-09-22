@@ -4,19 +4,19 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "logo":"https://i.imgur.com/THxMxIy.jpeg",
-  "repository": "https://github.com/Lazack28/Lazack-Device",
+  "logo":"https://telegra.ph/file/7d7112d331a345d558149.jpg",
+  "repository": "https://github.com/ayodejibot/Dark-Love-MD",
   "stack": "container",
   "env": {
     "OWNERS": {
-      "description": "owner numbers",
+      "description": "Owner Numbers",
       "required": true,
-      "value": "255734980103"
+      "value": "2348122441244"
     },
     "BOTNAME": {
-      "description": "Give your BOT a name",
+      "description": "GIVE YOUR WHATSAPP BOT A NAME",
       "required": true,
-      "value": "𝐋𝐀𝐙𝐀𝐂𝐊-𝐃𝐄𝐕𝐈𝐂𝐄"
+      "value": "Dark-Love-MD"
     },
     "DATABASE_URL": {
       "description": "your mongodb database url",
@@ -51,15 +51,15 @@
     "statusview": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "autoRead": {
       "description": "make it true if you want bot to read messages",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "antidelete": {
-      "description": "bot will forward deleted messages if you make it true",
+      "description": "bot will forward deleted messages from groups and chat if you make it true",
       "required": false,
       "value": "false"
     },
