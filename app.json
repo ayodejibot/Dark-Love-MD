@@ -1,21 +1,22 @@
 {
-  "name": "Lazack Device",
-  "description": " Whatsapp botz made by team lazack.",
+  "name": "Dark-Love-MD"
+  "description": " Dark-Love-MD MADE BY AY TECH.",
   "keywords": [
-    "whatsapp bot"
+    "Dark-Love-MD"
   ],
-  "repository": "https://github.com/Lazack28/Lazack-Device",
+    "logo":"https://i.imgur.com/THxMxIy.jpeg",
+  "repository": "https://github.com/ayodejibot/Dark-Love-MD",
   "stack": "container",
   "env": {
     "OWNERS": {
-      "description": "owner numbers",
+      "description": "Owner Numbers",
       "required": true,
-      "value": "255734980103"
+      "value": "2348122441244"
     },
     "BOTNAME": {
-      "description": "Give your BOT a name",
+      "description": "GIVE YOUR WHATSAPP BOT A NAME",
       "required": true,
-      "value": "𝐋𝐀𝐙𝐀𝐂𝐊-𝐃𝐄𝐕𝐈𝐂𝐄"
+      "value": "Dark-Love-MD"
     },
     "DATABASE_URL": {
       "description": "your mongodb database url",
@@ -35,32 +36,32 @@
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": "."
     },
-     "HKEY": {
+     "HEROKU API KEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
       "value": ""
     },
-     "HAPP": {
+     "HEROKU APP": {
       "description": "Put the Heroku app name, same as above entered",
       "required": true,
       "value": ""
     },
     "statusview": {
-      "description": "make it true if you want bot to view status",
+      "description": "make it true if you want bot to view people status",
       "required": false,
-      "value": ""
+      "value": true""
     },
     "autoRead": {
       "description": "make it true if you want bot to read messages",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "antidelete": {
-      "description": "bot will forward deleted messages if you make it true",
+      "description": "bot will forward deleted messages from groups or chats if you make it true",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
