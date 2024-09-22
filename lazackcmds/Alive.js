@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   var vn = 'https://cdn.jsdelivr.net/gh/Lazack28/Lazack-Device@main/jusorts/lazack.mp3'
   let url = 'https://github.com/Lazack28/Lazack-md'
   let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
-  let img = 'https://telegra.ph/file/1f4e6e1cc2ed1662adb36'
+  let img = 'https://telegra.ph/file/7d7112d331a345d558149.jpg'
   let con = {
     key: {
       fromMe: false,
