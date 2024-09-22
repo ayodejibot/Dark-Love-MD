@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   var vn = 'https://cdn.jsdelivr.net/gh/Lazack28/Lazack-Device@main/jusorts/lazack.mp3'
   let url = 'https://github.com/Lazack28/Lazack-md'
   let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
-  let img = 'https://i.imgur.com/QMyKIPq.jpeg'
+  let img = 'https://telegra.ph/file/1f4e6e1cc2ed1662adb36'
   let con = {
     key: {
       fromMe: false,
@@ -25,15 +25,15 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     mimetype: 'audio/mpeg',
     ptt: true,
     waveform: [100, 0, 100, 0, 100, 0, 100],
-    fileName: 'lazack',
+    fileName: 'Dark-Love-MD,
 
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'ℒ𝒜𝒵𝒜𝒞𝒦 ℳ𝒟 𝒜ℒℐ𝒱ℰ',
-        body: 'Lazack md',
+        title: 'Dark-Love-MD V1,
+        body: 'Dark-Love-MD,
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9',
+        sourceUrl: 'https://whatsapp.com/channel/0029VaiBr1WDzgTAYG2f6V37',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
