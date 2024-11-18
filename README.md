@@ -79,6 +79,101 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+100%+𝗦𝗔𝗙𝗘+𝗢𝗡+𝗛𝗘𝗥𝗢𝗞𝗨)](https://git.io/typing-svg)
  
 
+**DEPLOY TO RENDER**
+
+
+    
+<a href='https://dashboard.render.com/register' target="_blank"><img alt='Render' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+
+
+    
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+
+
+ **DEPLOY ON TERMUX**
+
+
+
+You can also deploy the bot directly on your Android device using Termux. Here’s how:
+
+1. **Install Termux:**
+
+   If you don't have Termux installed, download it from the Google Play Store or F-Droid.
+
+   - [Google Play Store](https://play.google.com/store/apps/details?id=com.termux)
+   - [F-Droid](https://f-droid.org/en/packages/com.termux/)
+
+2. **Update and Install Required Packages:**
+
+   Open Termux and run the following commands to update packages and install required dependencies:
+
+   ```bash
+   pkg update && pkg upgrade
+   pkg install git nodejs -y
+   ```
+
+3. **Clone the Repository:**
+
+   Clone the forked repository using the following command:
+
+   ```bash
+   git clone https://github/ayodejibot/Dark-Love-MD 
+   ```
+   4. **Navigate to t
+
+   Project Directory:**
+
+   Change into the project directory:
+
+   ```bash
+   cd Dark-Love-MD 
+   ```
+
+5. **Set the `SESSION_ID` in the `.env` File:**
+
+   To set the `SESSION_ID`, you need to create or edit the `.env` file in the project directory.
+
+   - **Create/Edit the `.env` File:**
+
+     Open (or create) the `.env` file using a text editor like `nano`:
+
+     ```bash
+     nano .env
+     ```
+
+   - **Add the `SESSION_ID` Variable:**
+
+     Add the following line to the `.env` file:
+
+     ```bash
+     SESSION_ID='your-session-id-here'
+     ```
+
+     Replace `'your-session-id-here'` with the actual session ID you obtained.
+
+   - **Save and Exit:**
+
+     If using `nano`, save the changes by pressing `CTRL + X`, then `Y`, and then `Enter` to exit.
+
+6. **Install Node Modules:**
+
+   Install the required Node.js modules:
+
+   ```bash
+   npm install
+   ```
+
+7. **Start the Bot:**
+
+   Finally, start the bot with the following command:
+
+   ```bash
+   node .
+   ```
+
+   Make sure to keep Termux open to maintain the bot's operation.
+   
+
 
 
 
