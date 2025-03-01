@@ -1,0 +1,15 @@
+name: Dark-Love-MD
+services:
+  - name: Dark-Love-MD-service
+    type: web
+    ports:
+      - 5000
+    routes:
+      - path: "/"
+    build:
+      type: docker
+      dockerfile: ./Dockerfile
+    regions:
+      - fra
+      - sin
+      
