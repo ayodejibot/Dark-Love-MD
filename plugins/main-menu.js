@@ -9,10 +9,10 @@ const axios = require('axios')
 cmd({
     pattern: "darklove2",
     alias: ["allmenu","fullmenu"],
-    use: '.menu2',
+    use: '.darklove2',
     desc: "Show all bot commands",
     category: "menu",
-    react: "📜",
+    react: "🖤",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -167,7 +167,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╭━━〔 👑 *OWNER MENU* 〕━━┈⊷
 ┃◈╭─────────────────·๏
 ┃◈┃• 👑 owner
-┃◈┃• 📜 darklove
+┃◈┃• 📜 menu 
 ┃◈┃• 📜 darklove2
 ┃◈┃• 📊 vv
 ┃◈┃• 📋 listcmd
@@ -273,7 +273,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• 📦 repo
 ┃◈┃• 👑 owner
 ┃◈┃• 📜 menu
-┃◈┃• 📜 menu2
+┃◈┃• 📜 darklove2
 ┃◈┃• 🔄 restart
 ┃◈╰─────────────────┈⊷
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
