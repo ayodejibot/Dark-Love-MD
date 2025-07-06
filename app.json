@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "Dark-Love-MD"
+      "value": "Ⓓⓐⓡⓚ-Ⓛⓞⓥⓔ-ⓂⒹ"
     }, 
       
     "PREFIX": {
@@ -78,7 +78,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY KHAN-MD 🖤*"
+      "value": "*SEEN YOUR STATUS BY Ⓓⓐⓡⓚ-Ⓛⓞⓥⓔ-ⓂⒹ 🖤*"
    
      }, 
     
@@ -98,7 +98,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "Dark-Love-MD"
+      "value": "Ⓓⓐⓡⓚ-Ⓛⓞⓥⓔ-ⓂⒹ"
 
       }, 
 
