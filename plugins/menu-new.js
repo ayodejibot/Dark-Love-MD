@@ -8,14 +8,14 @@ cmd({
     pattern: "menu",
     desc: "Show interactive menu system",
     category: "menu",
-    react: "🧾",
+    react: "♥️",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
         // Count total commands
         const totalCommands = Object.keys(commands).length;
         
-        const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
+        const menuCaption = `╭━━━〔 ✯*${config.BOT_NAME}*✯ 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│ 👑 Owner : *${config.OWNER_NAME}*
 ┃★│ 🤖 Baileys : *Multi Device*
@@ -25,6 +25,7 @@ cmd({
 ┃★│ 🔣 Prefix : *[${config.PREFIX}]*
 ┃★│ 🏷️ Version : *5.0.0 Bᴇᴛᴀ*
 ┃★│ 📚 Commands : *${totalCommands}*
+┃★│ 🤠 Desc: Type .darklove2 to see all commands 
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Menu List* 〕━━┈⊷
@@ -374,8 +375,8 @@ cmd({
 ┃★╰──────────────
 ┃★╭──────────────
 ┃★│ 🛠️ *Controls*
-┃★│ • menu
-┃★│ • menu2
+┃★│ • menu 
+┃★│ • darklove2
 ┃★│ • restart
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
