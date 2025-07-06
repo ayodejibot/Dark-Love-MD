@@ -36,7 +36,7 @@ async (conn, mek, m, {
 
     try {
         await conn.groupParticipantsUpdate(from, [jid], "remove");
-        reply(`✅ Successfully removed @${number}`, { mentions: [jid] });
+        reply(`✅ Successfully removed this baka @${number}`, { mentions: [jid] });
     } catch (error) {
         console.error("Remove command error:", error);
         reply("❌ Failed to remove the member.");
