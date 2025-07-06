@@ -9,13 +9,13 @@
 <div align="center">
   <a href="https://github.com/ayodejibot/followers"><img title="Followers" src="https://img.shields.io/github/followers/ayodejibot?color=EB5406&style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://github.com/ayodejibot/Dark-Love-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ayodejibot/Dark-Love-MD?color=FFCE44&style=for-the-badge&logo=reverbnation&logoColor=white"></a>
-  <a href="https://github.com/ayodejibot/Dark-Love-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/JawadYT36/KHAN-MD?color=FF007F&style=for-the-badge&logo=git&logoColor=white"></a>
+  <a href="https://github.com/ayodejibot/Dark-Love-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ayodejibot/Dark-Love-MD?color=FF007F&style=for-the-badge&logo=git&logoColor=white"></a>
   <a href="https://github.com/ayodejibot/Dark-Love-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/JawadYT36/KHAN-MD?style=for-the-badge&color=FFFF00&logo=docusign&logoColor=white"></a>
   <a href="https://github.com/ayodejibot/Dark-Love-MD/graphs/commit-activity"><img height="28" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge&logo=gitpod&logoColor=white"></a>
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=KHAN-MD&label=VISITORS&style=flat-square&color=0002FF" />
+  <img src="https://komarev.com/ghpvc/?username=Dark-Love-MD &label=VISITORS&style=flat-square&color=0002FF" />
 </p>
 
 > **Current Bot Version `5.0.0`**  
@@ -47,7 +47,7 @@
     
 <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #ff00ff;">
   <p style="color: #00ffff;">First star & Fork repo using button Below</p>
-  <a href='https://github.com/JawadYT36/KHAN-MD/fork' target="_blank">
+  <a href='https://github.com/ayodejibot/Dark-Love-MD/fork' target="_blank">
     <img src='https://img.shields.io/badge/FORK_REPOSITORY-008000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000'/>
   </a>
 </div>
