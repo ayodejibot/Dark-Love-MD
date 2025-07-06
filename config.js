@@ -47,7 +47,7 @@ OWNER_NAME: process.env.OWNER_NAME || "AY TECH",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ AY TECH*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/7d7112d331a345d558149.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/1otv1y.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> _Zinda Hun Yar *Dark-Love-MD*⚡_",
 // add alive msg here 
