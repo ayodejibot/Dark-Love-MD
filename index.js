@@ -113,9 +113,9 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 KHAN-MD BOT* 〕  
-├─▸ *Ultra Super Fast Powerfull ⚠️*  
-│     *World Best BOT KHAN-MD* 
+  let up = `╭─〔 *🤖 Dark-Love-MD BOT* 〕  
+├─▸ *Simple Whatsapp Bot Made By AY TECH ⚠️*  
+│     *World Best BOT Named Dark-Love-MD* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
 
 - *🖤 Thank You for Choosing KHAN-MD!* 
@@ -123,11 +123,11 @@ const port = process.env.PORT || 9090;
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j  
-├─ 🌟 *Star the Repo:*  
-│    https://github.com/JawadYT36/KHAN-MD  
-╰─🚀 *Powered by JawadTechX*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, caption: up })
+│    https://whatsapp.com/channel/0029VaiBr1WDzgTAYG2f6V37  
+├─ 🌟 *Star Dark-Love-MD Repo:*  
+│    https://github.com/ayodejibot/Dark-Love-MD  
+╰─🚀 *Powered by AY TECH*`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/843qrc.jpeg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
