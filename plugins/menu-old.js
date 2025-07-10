@@ -56,7 +56,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterName: 'AY TECH',
                         serverMessageId: 143
                     }
                 }
@@ -124,6 +124,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• birthday
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷`;
+> ${config.DESCRIPTION}`;
+
 
         await conn.sendMessage(
             from,
@@ -136,7 +138,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: "JawadTechX",
+                        newsletterName: "AY TECH",
                         serverMessageId: 143
                     }
                 }
@@ -277,7 +279,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/qj853s.jpg` },
+                image: { url: `https://files.catbox.moe/za6vsl.jpeg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -285,7 +287,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterName: 'AY TECH',
                         serverMessageId: 143
                     }
                 }
@@ -363,7 +365,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterName: 'AY TECH',
                         serverMessageId: 143
                     }
                 }
