@@ -118,7 +118,7 @@ const port = process.env.PORT || 9090;
 │     *World Best BOT Named Dark-Love-MD* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
 
-- *🖤 Thank You for Choosing KHAN-MD!* 
+- *🖤 Thank You for Choosing Dark-Love-MD!* 
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
