@@ -1,16 +1,16 @@
 {
-  "bot-name": "BYTE-MD",
-  "description": "BYTE-MD made for people on Earth",
-  "logo": "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/XByte-logo.png",
+  "bot-name": "Dark-Love-MD",
+  "description": " A simple bot made by AY TECH",
+  "logo": "https://files.catbox.moe/ufw74i.jpg",
   "keywords": [
     "bot"
   ],
-  "documentation-link": "https://session.talkdrove.com",
+  "documentation-link": "https://khanmd-pair.onrender.com/",
   "owner-verification": "talkdrove@gmail.com",
   "env": {
     "SESSION_ID": {
-      "description": "Put your SESSION_ID here. Make sure it starts with Byte;;;, or get session id from here, https://session.talkdrove.com",
-      "value": "",
+      "description": "Put your session id here. get session od from https://khanmd-pair.onrender.com/",
+      "value": "IK~0Wl33BSa#nWoyFZ2ZAe-pBRkR6JhPCXIxNljL_BW72UsJi5IbmOU",
       "required": true
     },
     "PREFIX": {
@@ -30,7 +30,7 @@
     },
     "OWNER_NUMBER": {
       "description": "OWNER_NUMBER with country code (e.g, 9230723xxxxx)",
-      "value": "923072380xxxx",
+      "value": "2348122441244",
       "required": true
     },
     "READ_CMD": {
@@ -73,25 +73,5 @@
       "value": "false",
       "required": false
     },
-    "PRESENCE": {
-      "description": "Set presence of your WhatsApp, you can put online to keep your WhatsApp online for always, put offline to keep the WhatsApp normal, put typing to show that you are typing whenever anybody will message you! put recordig to show that you are recording whenever anybody will message you, or you can also show paused for nothing (e.g, online)",
-      "value": "offline",
-      "required": false
-    },
-    "COUNTRY_BLOCK": {
-      "description": "Block by country code true to Enable, false to disable (e.g, true)",
-      "value": "true",
-      "required": false
-    },
-    "COUNTRY_BLOCK_CODE": {
-      "description": "Block by country code put country code without + (e.g, 972)",
-      "value": "972",
-      "required": false
-    },
-    "PREMIUM_USERS": {
-      "description": "There are some commands which can only be used by the premium users, put premium users number without +, multiple numbers can be seperated by comma (,) (e.g, 923072380xxx, or 923072380xx,9234538003xx)",
-      "value": "972",
-      "required": false
-    }
-  }
+    
 }
