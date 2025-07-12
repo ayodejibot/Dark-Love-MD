@@ -9,7 +9,7 @@
   "owner-verification": "talkdrove@gmail.com",
     "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "IK~0Wl33BSa#nWoyFZ2ZAe-pBRkR6JhPCXIxNljL_BW72UsJi5IbmOU",
       "required": true,
       "value": ""
     },  
@@ -92,7 +92,7 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "234812244XXXX"
+      "value": "2348122441244"
 
     }, 
 
