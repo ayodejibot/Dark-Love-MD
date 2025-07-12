@@ -123,8 +123,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• typography
 ┃◈┃• birthday
 ┃◈└───────────┈⊷
-╰──────────────┈⊷`;
-${config.DESCRIPTION}`;
+╰──────────────┈⊷
+${config.DESCRIPTION}
+`;
 
 
         await conn.sendMessage(
