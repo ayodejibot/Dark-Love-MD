@@ -613,7 +613,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterName: 'AY TECH',
                         serverMessageId: 143
                     }
                 }
@@ -666,7 +666,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/slc08b.jpg` },
+                image: { url: `https://files.catbox.moe/7tvxaj.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -735,7 +735,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/ezhijd.jpg` },
+                image: { url: `https://files.catbox.moe/akodji.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -780,8 +780,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• blackbox
 ┃◈┃• luma
 ┃◈┃• dj 
-┃◈┃• khan
-┃◈┃• jawad
 ┃◈┃• gpt4
 ┃◈┃• bing
 ┃◈┃• imagine 
@@ -794,7 +792,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/90oj1t.jpg` },
+                image: { url: `https://files.catbox.moe/fy9sbm.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -802,7 +800,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterName: 'AY TECH',
                         serverMessageId: 143
                     }
                 }
