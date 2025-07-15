@@ -116,7 +116,7 @@ const port = process.env.PORT || 9090;
   let up = `╭─〔 *🤖 Dark-Love-MD BOT* 〕  
 ├─▸ *Simple Whatsapp Bot Made By AY TECH ⚠️*  
 │     *World Best BOT Named Dark-Love-MD* 
-╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
+╰─➤ *Your Daek+Love-MD Bot is Ready To use 🍁!*  
 
 - *🖤 Thank You for Choosing Dark-Love-MD!* 
 
@@ -127,7 +127,7 @@ const port = process.env.PORT || 9090;
 ├─ 🌟 *Star Dark-Love-MD Repo:*  
 │    https://github.com/ayodejibot/Dark-Love-MD  
 ╰─🚀 *Powered by AY TECH*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/843qrc.jpeg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/607js4.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
