@@ -112,20 +112,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-let up = `╭─〔 *🤖 Dark-Love-MD BOT* 〕  
-├─▸ *Simple Whatsapp Bot Made By AY TECH ⚠️*  
-│     *World Best BOT Named Dark-Love-MD* 
-╰─➤ *Your Daek+Love-MD Bot is Ready To use 🍁!*  
-
-- *🖤 Thank You for Choosing Dark-Love-MD!* 
-
-╭──〔 🔗 *Information* 〕  
-├─ 🧩 *Prefix:* = ${prefix}
-├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029VaiBr1WDzgTAYG2f6V37  
-├─ 🌟 *Star Dark-Love-MD Repo:*  
-│    https://github.com/ayodejibot/Dark-Love-MD  
-╰─🚀 *Powered by AY TECH*`;
+let up = `*Hello there Dark-Love-MD Users! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet Dark-Love-MD WhatsApp Bot.\n\n *Thanks for using Dark-Love-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VaiBr1WDzgTAYG2f6V37\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/ayodejibot/Dark-Love-MD\n\n> © Powered BY ⒶⓎ ⓉⒺⒸⒽ  \ud83d\udda4`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/607js4.jpg` }, caption: up })
   }
   })
